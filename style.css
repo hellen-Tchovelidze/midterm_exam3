@@ -229,6 +229,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+margin-top: 30px;
 }
 
 .modern_icone_div {
