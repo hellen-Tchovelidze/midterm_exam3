@@ -17,6 +17,7 @@ body {
 .header {
   display: flex;
   justify-content: space-evenly;
+  padding: 50px;
 }
 .header_containet {
   display: flex;
@@ -80,6 +81,7 @@ body {
 .ahref_box {
   display: flex;
   margin-top: 30px;
+  text-decoration: none;
 }
 
 .btn {
@@ -96,6 +98,12 @@ body {
   width: 204px;
   height: 72px;
   background: var(--Almost-Black, #151515);
+  transition: 0.8s;
+}
+
+.btn:hover {
+  background: var(--Gold, #d5966c);
+  color: #ffffff;
 }
 
 .btn_img {
@@ -105,6 +113,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.8s;
+}
+
+.btn_img:hover {
+  background-color: #151515;
 }
 
 .section1 {
@@ -115,6 +128,7 @@ body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding: 5px;
 }
 
 .tex_box {
@@ -244,4 +258,16 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.facebook_icone:hover {
+  background-color: #d5966c;
+}
+
+.instagram_icone:hover {
+  background-color: #d5966c;
+}
+
+.twit_icone:hover {
+  background-color: #d5966c;
 }
