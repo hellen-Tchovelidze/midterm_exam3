@@ -14,12 +14,22 @@ body {
   align-items: center;
 }
 
+header{
+    max-width: 1800px;
+    width: 100%;
+height: 600px;
+position: relative;
+
+}
+
 section{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
+    max-width: 1800px;
+    width: 100%;
+    height: 548px;
 }
 
 .ahref_box {
@@ -70,6 +80,7 @@ top: 0px;
   .maps_div{
 height: 685px;
 width: 100%;
+
   }
 
   .maps{
@@ -77,6 +88,21 @@ width: 100%;
     width: 100%;
     object-fit: cover;
   }
+
+.local_icone_div{
+    width: 66px;
+height: 88px;
+top: 256px;
+left: 687px;
+position: absolute;
+
+}
+
+.local_icone{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
 
   .box{
 height: 548px;
@@ -131,6 +157,7 @@ color: #FFFFFF;
   
 
   footer {
+    max-width: 1800px;
     width: 100%;
     height: 244px;
     background-color: #D5966C;
