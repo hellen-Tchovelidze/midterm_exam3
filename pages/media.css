@@ -1,3 +1,63 @@
-@media (max-width:1216px) {
-    
+@media (max-width: 915px) {
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+    height: 100%;
+  }
+  .headingg {
+    display: none;
+  }
+  .heading_media {
+    display: block;
+    margin-right: auto;
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .heading_tex {
+    font-family: Big Shoulders Display;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+  }
+  .adress_text {
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+  }
+  .paragraph {
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+    gap: 10px;
+    height: 100%;
+  }
+  .footer_paragraph {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+  }
+  .ahref_box {
+    top: 0%;
+    left: 0%;
+  }
+  .modern_icone_div {
+    margin-right: auto;
+  }
 }
