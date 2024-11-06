@@ -465,4 +465,16 @@ footer {
     padding: 10px;
     margin-top: 10px;
   }
+  .footer_paragraph{
+    font-family: Outfit;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+margin-top: 10px;
+  }
+  .icone_container{
+    display: flex;
+    margin-top: 10px;
+  }
 }
