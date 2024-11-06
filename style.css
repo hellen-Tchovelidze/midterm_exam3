@@ -59,7 +59,7 @@ body {
   z-index: 1;
   color: #ffffff;
   top: 189px;
-  left: 14%;
+  left: 11%;
 }
 
 .span_hed {
@@ -71,8 +71,8 @@ body {
   flex-direction: column;
   z-index: 1;
   position: absolute;
-  left: 73%;
-  top: 280px;
+  left: 61%;
+  top: 189px;
 }
 
 .paragraph {
@@ -286,7 +286,7 @@ footer {
   }
   .paragraph_div {
     position: absolute;
-    left: 55%;
+    left: 40%;
     top: 300px;
   }
 
@@ -303,7 +303,7 @@ footer {
   }
   .header_text {
     position: absolute;
-    left: 55%;
+    left: 40%;
     top: 145px;
     font-family: Big Shoulders Display;
     font-size: 70px;
