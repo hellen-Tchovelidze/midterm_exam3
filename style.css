@@ -268,15 +268,15 @@ footer {
 }
 
 .facebook_icone:hover {
-  background-color: #d5966c;
+  filter: brightness(50%) sepia(90%) saturate(300%) hue-rotate(-15deg);
 }
 
 .instagram_icone:hover {
-  background-color: #d5966c;
+  filter: brightness(50%) sepia(90%) saturate(300%) hue-rotate(-15deg);
 }
 
 .twit_icone:hover {
-  background-color: #d5966c;
+  filter: brightness(50%) sepia(90%) saturate(300%) hue-rotate(-15deg);
 }
 
 @media (max-width: 1024px) {
@@ -329,15 +329,18 @@ footer {
     text-align: left;
   }
   .museumphoto_div {
-    width: 398px;
+    max-width: 398px;
+    width: 100%;
     height: 400px;
   }
   .images_div_copy2 {
-    width: 398px;
+    max-width: 398px;
+    width: 100%;
     height: 720px;
   }
   .box_cont {
-    width: 398px;
+    max-width: 398px;
+    width: 100%;
     height: 720px;
 
     gap: 10px;
@@ -359,6 +362,7 @@ footer {
     font-weight: 400;
     line-height: 28px;
     text-align: left;
+    margin-top: 15px;
   }
   .footer_paragraph {
     font-family: Outfit;
@@ -370,13 +374,20 @@ footer {
 }
 
 @media (max-width: 742px) {
+  .header_containet {
+    max-width: 375px;
+    width: 100%;
+    height: 240px;
+  }
   .header_img {
-    width: 375px;
+    max-width: 375px;
+    width: 100%;
     height: 240px;
   }
   .paragraph_div {
     display: flex;
     position: initial;
+    margin-top: 20px;
   }
   .header_text {
     display: none;
@@ -389,9 +400,10 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     align-items: start;
+    gap: 20px;
   }
   .section1 {
-    gap: 10px;
+    gap: 15px;
   }
 
   .moblie-heder {
@@ -408,6 +420,7 @@ footer {
     font-weight: 400;
     line-height: 28px;
     text-align: left;
+    margin-top: 15px;
   }
   .texbox_header {
     font-family: Big Shoulders Display;
@@ -416,17 +429,33 @@ footer {
     line-height: 45px;
     text-align: left;
   }
+  .tex_paragraph {
+    color: var(--Dark-Grey, #444);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 10px;
+  }
   .heading_section_div {
     display: flex;
+    margin-left: 0;
     justify-content: start;
     align-items: start;
+    color: var(--White, #fff);
+    font-family: "Big Shoulders Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
   }
 
   .black_content {
     display: flex;
     justify-content: start;
     align-items: start;
-    padding: 10px;
+    padding: 20px;
   }
   footer {
     display: flex;
@@ -434,5 +463,6 @@ footer {
     align-items: start;
     flex-wrap: wrap;
     padding: 10px;
+    margin-top: 10px;
   }
 }

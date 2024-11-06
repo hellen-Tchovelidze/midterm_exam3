@@ -38,7 +38,6 @@ section {
   top: 0px;
 }
 
-
 .btn {
   display: flex;
   justify-content: center;
@@ -56,8 +55,6 @@ section {
   transition: 0.8s;
 }
 
-
-
 .btn_img {
   width: 56px;
   height: 72px;
@@ -68,9 +65,8 @@ section {
   transition: 0.8s;
 }
 
-
 .maps_div {
-  /* height: 685px; */
+
   width: 100%;
 }
 
@@ -80,8 +76,6 @@ section {
   object-fit: cover;
 }
 
-
-
 .box {
   height: 548px;
   width: 100%;
@@ -89,6 +83,7 @@ section {
   justify-content: space-evenly;
   align-items: center;
   background-color: #151515;
+  margin-top: -10px;
 }
 .headingg {
   font-family: Big Shoulders Display;
@@ -114,7 +109,9 @@ section {
   text-align: left;
   color: #d5966c;
 }
-.heading_media{display: none;}
+.heading_media {
+  display: none;
+}
 .adress_text {
   font-family: Outfit;
   font-size: 22px;
@@ -134,13 +131,13 @@ section {
 }
 
 footer {
-
   width: 100%;
   height: 244px;
   background-color: #d5966c;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: -10px;
 }
 
 .modern_icone_div {

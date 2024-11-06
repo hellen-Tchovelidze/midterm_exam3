@@ -3,9 +3,9 @@ const btnImage = document.querySelector('.btn_img');
 
   btnImage.addEventListener('mouseenter', function() {
     
-    btnImage.style.backgroundColor = "black";  
-    h1.style.backgroundColor = "gold"
-    h1.style.color = 'black';  
+    btnImage.style.backgroundColor = "#151515";  
+    h1.style.backgroundColor = "#D5966C"
+    h1.style.color = '#FFFFFF';  
   });
   btnImage.addEventListener('mouseleave', function() {
     btnImage.style.backgroundColor = "";  
@@ -15,9 +15,9 @@ const btnImage = document.querySelector('.btn_img');
   });
 
   h1.addEventListener('mouseenter', function() {
-    btnImage.style.backgroundColor = 'black';  
-    h1.style.color = "black";  
-    h1.style.backgroundColor = "gold"
+    btnImage.style.backgroundColor = '#151515';  
+    h1.style.color = "#FFFFFF";  
+    h1.style.backgroundColor = "#D5966C"
 
   });
   h1.addEventListener("mouseleave", function() {
